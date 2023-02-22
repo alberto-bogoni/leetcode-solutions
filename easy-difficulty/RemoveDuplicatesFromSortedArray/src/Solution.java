@@ -20,21 +20,14 @@ public class Solution {
             return 0;
         }
 
-        List<Integer> result = new LinkedList<>();
+        Arrays.sort(nums);
 
-        int k = 0;
-        for(int i = 0, c = 0; i < nums.length; i++) {
-            if (!(result.contains(nums[i]))) {
-                result.add(nums[i]);
-
-                int temp = 0;
-                temp = nums[c];
-                nums[k] = nums[i];
-                nums[i] = temp;
-                k++;
+        int k = 1;
+        for(int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] < nums[i + 1]) {
+                nums[k++] = nums[i + 1];
             }
         }
-
 
         return k;
     }
