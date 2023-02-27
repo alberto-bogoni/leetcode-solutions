@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c018499-1947-400c-9c9e-82d9f1c47400" name="Changes" comment="">
+    <list default="true" id="47fe51f4-24b5-4a72-9caa-d2b3a6da4914" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../LengthOfLastWord/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LengthOfLastWord/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LongestCommonPrefix/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LongestCommonPrefix/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RemoveDuplicatesFromSortedArray/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RemoveDuplicatesFromSortedArray/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RemoveDuplicatesFromSortedArray/src/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RemoveDuplicatesFromSortedArray/src/SolutionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +17,20 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="2M1426SmAD7A3222Klk9wBIE2G7" />
+  <component name="ProjectId" id="2M6mtOKEIlkOv48glTpUuqpOgwX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,7 +40,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/albertobogoni/Documents/GitHub/leetcode-solutions/easy-difficulty/ClimbingStairs",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
@@ -40,12 +51,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1c018499-1947-400c-9c9e-82d9f1c47400" name="Changes" comment="" />
-      <created>1676921546408</created>
+      <changelist id="47fe51f4-24b5-4a72-9caa-d2b3a6da4914" name="Changes" comment="" />
+      <created>1677096621705</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1676921546408</updated>
-      <workItem from="1676921548028" duration="895000" />
+      <updated>1677096621705</updated>
+      <workItem from="1677096622760" duration="789000" />
     </task>
     <servers />
   </component>
