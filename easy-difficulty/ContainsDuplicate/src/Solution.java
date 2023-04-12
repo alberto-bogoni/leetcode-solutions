@@ -24,13 +24,11 @@ public class Solution {
         HashSet<Integer> support = new HashSet<>();
 
         for (int i = 0; i < nums.length; i++) {
-            if (!support.contains(nums[i]))
-                support.add(nums[i]);
-            else
+            if (!support.add(nums[i]))
                 return true;
         }
 
         return false;
     }
-    
+
 }
