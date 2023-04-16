@@ -18,4 +18,9 @@ public class SolutionTest {
     public void emptyArray() {
         Assert.assertEquals(0, solution.removeDuplicates(new int[]{}));
     }
+
+    @Test
+    public void twoSizeArray() {
+        Assert.assertEquals(1, solution.removeDuplicates(new int[]{1,1}));
+    }
 }
