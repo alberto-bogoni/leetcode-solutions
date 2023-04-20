@@ -3,9 +3,13 @@
      < target where i, j, and k are three different indices. Write a function to return the count of such triplets.
  */
 
+import java.util.Arrays;
+
 public class Solution {
     public static int searchTriplets(int[] arr, int target) {
         int count = 0;
+
+        Arrays.sort(arr);
 
         for (int i = 0; i < arr.length; i++) {
             int left = i + 1;
