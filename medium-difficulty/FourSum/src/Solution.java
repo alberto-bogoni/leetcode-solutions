@@ -22,10 +22,11 @@ public class Solution {
 
                 while (left < right) {
                     int sum = nums[i] + nums[j] + nums[left] + nums[right];
-                    if ((nums[i] + nums[j] + nums[left] + nums[right]) > Integer.MAX_VALUE)
-                        return new LinkedList<>();
 
-                    if (sum == target) {
+                    if (isOverflowing(nums[i], nums[j], nums[left], nums[right])) {
+                        left++;
+                        right--;
+                    } else if (sum == target) {
                         quadruplets.add(List.of(nums[i], nums[j], nums[left], nums[right]));
                         left++;
                         right--;
@@ -45,9 +46,8 @@ public class Solution {
         return quadruplets;
     }
 
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-
-        System.out.println(solution.fourSum(new int[]{1000000000,1000000000,1000000000,1000000000},-294967296));
+    private boolean isOverflowing(int first, int second, int third, int fourth) {
+        long sum = (long) first + second + third + fourth;
+        return sum > Integer.MAX_VALUE;
     }
 }
