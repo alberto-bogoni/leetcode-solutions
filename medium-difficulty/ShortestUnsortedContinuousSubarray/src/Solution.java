@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class Solution {
     public int findUnsortedSubarray(int[] arr) {
         int low = 0, high = arr.length - 1;
-
+			
         while (low < arr.length - 1 && arr[low] <= arr[low + 1])
             low++;
 
@@ -19,7 +19,7 @@ public class Solution {
             subarrayMax = Math.max(subarrayMax, arr[k]);
             subarrayMin = Math.min(subarrayMin, arr[k]);
         }
-
+				
         while (low > 0 && arr[low - 1] > subarrayMin)
             low--;
         while (high < arr.length - 1 && arr[high + 1] < subarrayMax)
@@ -28,9 +28,4 @@ public class Solution {
         return high - low + 1;
     }
 
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-
-        System.out.println(solution.findUnsortedSubarray(new int[]{1,3,2,2,2}));
-    }
 }
