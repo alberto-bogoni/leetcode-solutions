@@ -37,29 +37,4 @@ public class Solution {
                 || visit(grid, i, j + 1, originCharPosition, originChar, pathCount)
                 || visit(grid, i, j - 1, originCharPosition, originChar, pathCount);
     }
-
-    public static void main(String[] args) {
-//        System.out.println(new Solution().containsCycle(
-//                new char[][]{
-//                        {'a', 'a', 'a', 'a'},
-//                        {'a', 'b', 'c', 'a'},
-//                        {'a', 'b', 'c', 'a'},
-//                        {'a', 'a', 'a', 'a'}
-//                }));
-
-//        System.out.println(new Solution().containsCycle(
-//                new char[][]{
-//                        {'c', 'c', 'c', 'a'},
-//                        {'c', 'd', 'c', 'c'},
-//                        {'c', 'c', 'e', 'c'},
-//                        {'f', 'c', 'c', 'c'}
-//                }));
-
-        System.out.println(new Solution().containsCycle(
-                new char[][]{
-                        {'a', 'b', 'b'},
-                        {'b', 'z', 'b'},
-                        {'b', 'b', 'a'},
-                }));
-    }
 }
