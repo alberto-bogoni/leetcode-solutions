@@ -32,24 +32,4 @@ public class BFSSolution {
 
         return image;
     }
-
-    public static void main(String[] args) {
-        System.out.println(Arrays.deepToString(new DFSSolution().floodFill(
-                new int[][] {
-                        { 0, 1, 1, 1, 0 },
-                        { 0, 0, 0, 1, 1 },
-                        { 0, 1, 1, 1, 0 },
-                        { 0, 1, 1, 0, 0 },
-                        { 0, 0, 0, 0, 0 }
-                }, 1, 3, 2)));
-
-        System.out.println("");
-
-        System.out.println(Arrays.deepToString(new DFSSolution().floodFill(
-                new int[][] {
-                        { 1,1,1 },
-                        { 1,1,0 },
-                        { 1,0,1 },
-                }, 1, 1, 2)));
-    }
 }
