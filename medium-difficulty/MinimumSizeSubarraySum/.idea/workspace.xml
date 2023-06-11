@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="306dd288-7f56-4ba8-8d29-23c1baba3e99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaximumSubarray.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MinimumSizeSubarraySum/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="58fbf82c-96a5-4294-ae48-4d254aac3618" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MaximumSubarray/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaximumSubarray/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaximumSubarray/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaximumSubarray/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaximumSubarray/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaximumSubarray/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaximumSubarray/MaximumSubarray.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaximumSubarray/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="2Plz59faBLnuqjlzpNrwQlN3ljo" />
+  <component name="ProjectId" id="2PoaUwv5uAIEPyNqFhuIfH2nIQB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,16 +53,31 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="MinimumSizeSubarraySum" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="306dd288-7f56-4ba8-8d29-23c1baba3e99" name="Changes" comment="" />
-      <created>1684046272941</created>
+      <changelist id="58fbf82c-96a5-4294-ae48-4d254aac3618" name="Changes" comment="" />
+      <created>1684125911674</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684046272941</updated>
-      <workItem from="1684046274043" duration="4240000" />
-      <workItem from="1686286758653" duration="5586000" />
+      <updated>1684125911674</updated>
+      <workItem from="1684125912738" duration="6499000" />
+      <workItem from="1685703044979" duration="2166000" />
+      <workItem from="1685984089952" duration="2485000" />
     </task>
     <servers />
   </component>
