@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/BackspaceStringCompare/BackspaceStringCompare.iml" filepath="$PROJECT_DIR$/easy-difficulty/BackspaceStringCompare/BackspaceStringCompare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/CircularArrayLoop/CircularArrayLoop.iml" filepath="$PROJECT_DIR$/medium-difficulty/CircularArrayLoop/CircularArrayLoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/ContainerWithMostWater/ContainerWithMostWater.iml" filepath="$PROJECT_DIR$/medium-difficulty/ContainerWithMostWater/ContainerWithMostWater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/ContainsDuplicate/ContainsDuplicate.iml" filepath="$PROJECT_DIR$/easy-difficulty/ContainsDuplicate/ContainsDuplicate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/ContainsDuplicateII/ContainsDuplicateII.iml" filepath="$PROJECT_DIR$/easy-difficulty/ContainsDuplicateII/ContainsDuplicateII.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/DetectCyclesIn2DGrid/DetectCyclesIn2DGrid.iml" filepath="$PROJECT_DIR$/medium-difficulty/DetectCyclesIn2DGrid/DetectCyclesIn2DGrid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/EvenNumberOfDigits/EvenNumberOfDigits.iml" filepath="$PROJECT_DIR$/easy-difficulty/EvenNumberOfDigits/EvenNumberOfDigits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/FindAllAnagramsInAString/FindAllAnagramsInAString.iml" filepath="$PROJECT_DIR$/medium-difficulty/FindAllAnagramsInAString/FindAllAnagramsInAString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/FloodFill/FloodFill.iml" filepath="$PROJECT_DIR$/easy-difficulty/FloodFill/FloodFill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/FourSum/FourSum.iml" filepath="$PROJECT_DIR$/medium-difficulty/FourSum/FourSum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/FruitsIntoBaskets/FruitsIntoBaskets.iml" filepath="$PROJECT_DIR$/medium-difficulty/FruitsIntoBaskets/FruitsIntoBaskets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/GrumpyBookstoreOwner/GrumpyBookstoreOwner.iml" filepath="$PROJECT_DIR$/medium-difficulty/GrumpyBookstoreOwner/GrumpyBookstoreOwner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/HappyNumber/HappyNumber.iml" filepath="$PROJECT_DIR$/easy-difficulty/HappyNumber/HappyNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/IslandPerimeter/IslandPerimeter.iml" filepath="$PROJECT_DIR$/easy-difficulty/IslandPerimeter/IslandPerimeter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/LengthOfLastWord/LengthOfLastWord.iml" filepath="$PROJECT_DIR$/easy-difficulty/LengthOfLastWord/LengthOfLastWord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/LinkedListCycle/LinkedListCycle.iml" filepath="$PROJECT_DIR$/easy-difficulty/LinkedListCycle/LinkedListCycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/LinkedListCycleII/LinkedListCycleII.iml" filepath="$PROJECT_DIR$/medium-difficulty/LinkedListCycleII/LinkedListCycleII.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/LongestCommonPrefix/LongestCommonPrefix.iml" filepath="$PROJECT_DIR$/easy-difficulty/LongestCommonPrefix/LongestCommonPrefix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/LongestRepeatingCharacterReplacement/LongestRepeatingCharacterReplacement.iml" filepath="$PROJECT_DIR$/medium-difficulty/LongestRepeatingCharacterReplacement/LongestRepeatingCharacterReplacement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/LongestSubstringWithKDistinctChars/LongestSubstringWithKDistinctChars.iml" filepath="$PROJECT_DIR$/medium-difficulty/LongestSubstringWithKDistinctChars/LongestSubstringWithKDistinctChars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/MajorityElement/MajorityElement.iml" filepath="$PROJECT_DIR$/easy-difficulty/MajorityElement/MajorityElement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/MaxAreaOfIsland/MaxAreaOfIsland.iml" filepath="$PROJECT_DIR$/medium-difficulty/MaxAreaOfIsland/MaxAreaOfIsland.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/MaxConfusionOfAnExam/MaxConfusionOfAnExam.iml" filepath="$PROJECT_DIR$/medium-difficulty/MaxConfusionOfAnExam/MaxConfusionOfAnExam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/MaxConsecutiveOnes/MaxConsecutiveOnes.iml" filepath="$PROJECT_DIR$/easy-difficulty/MaxConsecutiveOnes/MaxConsecutiveOnes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/MaxConsecutiveOnesIII/MaxConsecutiveOnesIII.iml" filepath="$PROJECT_DIR$/medium-difficulty/MaxConsecutiveOnesIII/MaxConsecutiveOnesIII.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/MaximumAverageSubarray/MaximumAverageSubarray.iml" filepath="$PROJECT_DIR$/easy-difficulty/MaximumAverageSubarray/MaximumAverageSubarray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/MaximumSubarray/MaximumSubarray.iml" filepath="$PROJECT_DIR$/medium-difficulty/MaximumSubarray/MaximumSubarray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/MergeSortedArray/MergeSortedArray.iml" filepath="$PROJECT_DIR$/easy-difficulty/MergeSortedArray/MergeSortedArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/MiddleOfLinkedList/MiddleOfLinkedList.iml" filepath="$PROJECT_DIR$/easy-difficulty/MiddleOfLinkedList/MiddleOfLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/MinimumRecolors/MinimumRecolors.iml" filepath="$PROJECT_DIR$/easy-difficulty/MinimumRecolors/MinimumRecolors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/MinimumSizeSubarraySum/MinimumSizeSubarraySum.iml" filepath="$PROJECT_DIR$/medium-difficulty/MinimumSizeSubarraySum/MinimumSizeSubarraySum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hard-difficulty/MinimumWindowSubstring/MinimumWindowSubstring.iml" filepath="$PROJECT_DIR$/hard-difficulty/MinimumWindowSubstring/MinimumWindowSubstring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/NumberOfClosedIslands/NumberOfClosedIslands.iml" filepath="$PROJECT_DIR$/medium-difficulty/NumberOfClosedIslands/NumberOfClosedIslands.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/NumberOfDistinctIslands/NumberOfDistinctIslands.iml" filepath="$PROJECT_DIR$/medium-difficulty/NumberOfDistinctIslands/NumberOfDistinctIslands.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/NumberOfGoodPairs/NumberOfGoodPairs.iml" filepath="$PROJECT_DIR$/easy-difficulty/NumberOfGoodPairs/NumberOfGoodPairs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/NumberOfIslands/NumberOfIslands.iml" filepath="$PROJECT_DIR$/medium-difficulty/NumberOfIslands/NumberOfIslands.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/PalindromeLinkedList/PalindromeLinkedList.iml" filepath="$PROJECT_DIR$/easy-difficulty/PalindromeLinkedList/PalindromeLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/PalindromeNumber/PalindromeNumber.iml" filepath="$PROJECT_DIR$/easy-difficulty/PalindromeNumber/PalindromeNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/Pangram/Pangram.iml" filepath="$PROJECT_DIR$/easy-difficulty/Pangram/Pangram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/PascalTriangle/PascalTriangle.iml" filepath="$PROJECT_DIR$/easy-difficulty/PascalTriangle/PascalTriangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/PascalTriangleII/PascalTriangleII.iml" filepath="$PROJECT_DIR$/easy-difficulty/PascalTriangleII/PascalTriangleII.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/PermutationInString/PermutationInString.iml" filepath="$PROJECT_DIR$/medium-difficulty/PermutationInString/PermutationInString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/PlusOne/PlusOne.iml" filepath="$PROJECT_DIR$/easy-difficulty/PlusOne/PlusOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.iml" filepath="$PROJECT_DIR$/easy-difficulty/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/ReorderList/ReorderList.iml" filepath="$PROJECT_DIR$/medium-difficulty/ReorderList/ReorderList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/RepeatedDNASequences/RepeatedDNASequences.iml" filepath="$PROJECT_DIR$/medium-difficulty/RepeatedDNASequences/RepeatedDNASequences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/ReverseVowels/ReverseVowels.iml" filepath="$PROJECT_DIR$/easy-difficulty/ReverseVowels/ReverseVowels.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/RomanToInteger/RomanToInteger.iml" filepath="$PROJECT_DIR$/easy-difficulty/RomanToInteger/RomanToInteger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/ShortestUnsortedContinuousSubarray/ShortestUnsortedContinuousSubarray.iml" filepath="$PROJECT_DIR$/medium-difficulty/ShortestUnsortedContinuousSubarray/ShortestUnsortedContinuousSubarray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/ShotestWordDistance/ShotestWordDistance.iml" filepath="$PROJECT_DIR$/easy-difficulty/ShotestWordDistance/ShotestWordDistance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/SingleNumber/SingleNumber.iml" filepath="$PROJECT_DIR$/easy-difficulty/SingleNumber/SingleNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/SortColors/SortColors.iml" filepath="$PROJECT_DIR$/medium-difficulty/SortColors/SortColors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/SquaresOfSortedArray/SquaresOfSortedArray.iml" filepath="$PROJECT_DIR$/easy-difficulty/SquaresOfSortedArray/SquaresOfSortedArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/SubarrayProductLessThanK/SubarrayProductLessThanK.iml" filepath="$PROJECT_DIR$/medium-difficulty/SubarrayProductLessThanK/SubarrayProductLessThanK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/MinimumSizeSubarraySum/SubarrayProductLessThanK/SubarrayProductLessThanK1.iml" filepath="$PROJECT_DIR$/medium-difficulty/MinimumSizeSubarraySum/SubarrayProductLessThanK/SubarrayProductLessThanK1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hard-difficulty/SubstringWithConcatenationOfAllWords/SubstringWithConcatenationOfAllWords.iml" filepath="$PROJECT_DIR$/hard-difficulty/SubstringWithConcatenationOfAllWords/SubstringWithConcatenationOfAllWords.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/ThreeSum/ThreeSum.iml" filepath="$PROJECT_DIR$/medium-difficulty/ThreeSum/ThreeSum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/ThreeSumClosest/ThreeSumClosest.iml" filepath="$PROJECT_DIR$/medium-difficulty/ThreeSumClosest/ThreeSumClosest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/ThreeSumSmaller/ThreeSumSmaller.iml" filepath="$PROJECT_DIR$/medium-difficulty/ThreeSumSmaller/ThreeSumSmaller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/TwoNonOverlappingSubarraysWithTarget/TwoNonOverlappingSubarraysWithTarget.iml" filepath="$PROJECT_DIR$/medium-difficulty/TwoNonOverlappingSubarraysWithTarget/TwoNonOverlappingSubarraysWithTarget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/TwoSum/TwoSum.iml" filepath="$PROJECT_DIR$/easy-difficulty/TwoSum/TwoSum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medium-difficulty/TwoSumII/TwoSumII.iml" filepath="$PROJECT_DIR$/medium-difficulty/TwoSumII/TwoSumII.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/ValidAnagram/ValidAnagram.iml" filepath="$PROJECT_DIR$/easy-difficulty/ValidAnagram/ValidAnagram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-difficulty/ValidPalindrome/ValidPalindrome.iml" filepath="$PROJECT_DIR$/easy-difficulty/ValidPalindrome/ValidPalindrome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/leetcode-solutions.iml" filepath="$PROJECT_DIR$/.idea/leetcode-solutions.iml" />
+    </modules>
+  </component>
+</project>
