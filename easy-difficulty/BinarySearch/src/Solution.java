@@ -10,11 +10,9 @@ public class Solution {
         int position = start + (end - start) / 2;
         if (nums[position] == target)
             return position;
-        else if (nums[position] > nums[start])
-            binarySearch(nums, start, position, target);
+        else if (nums[position] > target)
+            return binarySearch(nums, start, position-1, target);
         else
-            binarySearch(nums, position, end, target);
-
-        return position;
+            return binarySearch(nums, position+1, end, target);
     }
 }
