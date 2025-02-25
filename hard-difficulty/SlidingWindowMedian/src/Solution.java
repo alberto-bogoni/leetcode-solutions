@@ -10,8 +10,7 @@ public class Solution {
         if (k == 0 || nums.length == 0)
             return new double[0];
         int left = 0;
-
-
+        
         List<Double> result = new LinkedList<>();
         for (int right = 0; right < nums.length; right++) {
             if ((right - left + 1) > k) {
