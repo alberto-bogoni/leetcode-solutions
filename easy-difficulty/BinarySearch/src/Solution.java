@@ -7,7 +7,7 @@ public class Solution {
         if (start > end)
             return -1;
 
-        int position = (end - start) / 2;
+        int position = start + (end - start) / 2;
         if (nums[position] == target)
             return position;
         else if (nums[position] > nums[start])
