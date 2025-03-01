@@ -22,4 +22,14 @@ public class Solution {
 
         return 0;
     }
+
+    public int singleNumberSecondApproach(int[] nums) {
+        int result = nums[0];
+
+        for (int i = 1; i < nums.length; i++) {
+            result ^= nums[i];
+        }
+
+        return result;
+    }
 }
