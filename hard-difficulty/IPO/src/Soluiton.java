@@ -1,3 +1,5 @@
+import java.util.HashMap;
+import java.util.Map;
 import java.util.PriorityQueue;
 
 class Solution {
@@ -8,6 +10,9 @@ class Solution {
         PriorityQueue<Integer> maxProfitHeap =
                 new PriorityQueue<>(n, (i1, i2) -> profits[i2] - profits[i1]);
 
+        Map.Entry<Integer, Integer> entry;
+        Map<Integer, Integer> map = new HashMap<>();
+        map.entr
         for (int i = 0; i < n; i++)
             minCapitalHeap.offer(i);
 
