@@ -1,33 +1,29 @@
 public class Solution {
     public int maxSatisfied(int[] customers, int[] grumpy, int minutes) {
-        int maxNumberOfCustomers = Integer.MIN_VALUE;
+        int totalSatisfied = 0;
+        int maxAdditionalSatisfaction = 0;
+        int currentWindowSatisfaction = 0;
+        int left = 0;
 
-        int windowStart = 0;
-        int currentCustomersSatisfied = 0;
-        int grumpyTimeslicesInMinutes = 0;
-
-        for (int windowEnd = 0; windowEnd < grumpy.length; windowEnd++) {
-            currentCustomersSatisfied += customers[windowEnd];
-            if (grumpy[windowEnd] == 1)
-               grumpyTimeslicesInMinutes += 1;
-
-            while (grumpyTimeslicesInMinutes > minutes) {
-               if (grumpy[windowStart] == 1) {
-                   grumpyTimeslicesInMinutes--;
-               }
-               currentCustomersSatisfied -= customers[windowStart];
-
-               windowStart++;
+        for (int right = 0; right < customers.length; right++) {
+            if (grumpy[right] == 0) {
+                totalSatisfied += customers[right];
             }
 
-            maxNumberOfCustomers = Math.max(maxNumberOfCustomers, currentCustomersSatisfied);
+            if (grumpy[right] == 1) {
+                currentWindowSatisfaction += customers[right];
+            }
+
+            if (right - left + 1 > minutes) {
+                if (grumpy[left] == 1) {
+                    currentWindowSatisfaction -= customers[left];
+                }
+                left++;
+            }
+
+            maxAdditionalSatisfaction = Math.max(maxAdditionalSatisfaction, currentWindowSatisfaction);
         }
 
-        return maxNumberOfCustomers;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(new Solution().maxSatisfied(new int[]{1,0,1,2,1,1,7,5}, new int[]{0,1,0,1,0,1,0,1}, 3));
-        System.out.println(new Solution().maxSatisfied(new int[]{1}, new int[]{0}, 1));
+        return totalSatisfied + maxAdditionalSatisfaction;
     }
 }
