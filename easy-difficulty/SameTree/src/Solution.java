@@ -11,6 +11,18 @@ public class Solution {
             return false;
     }
 
+    public boolean isSameTreeSecond(TreeNode p, TreeNode q) {
+        if (p == null && q == null) return true;
+        if (p == null || q == null) return false;
+        if (!(p.val == q.val)) return false;
+
+        boolean left = isSameTreeSecond(p.left, q.left);
+        if (!left) return false;
+        boolean right = isSameTreeSecond(p.right, q.right);
+
+        return right;
+    }
+
     public class TreeNode {
         int val;
         TreeNode left;
