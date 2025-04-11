@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Solution {
@@ -23,5 +24,25 @@ public class Solution {
         }
         
         return subsets;
+    }
+
+    public List<List<Integer>> subsetsWithDupSecond(int[] nums) {
+        List<List<Integer>> result = new LinkedList<>();
+        result.add(new ArrayList<>());
+        Arrays.sort(nums);
+        backtrack(nums, 0, new LinkedList<>(), result);
+        return result;
+    }
+
+    public void backtrack(int[] nums, int start, List<Integer> set, List<List<Integer>> result) {
+
+        for (int i = start; i < nums.length; i++) {
+            if (i > start && nums[i] == nums[i - 1]) continue;
+
+            set.add(nums[i]);
+            result.add(new ArrayList<Integer>(set));
+            backtrack(nums, i + 1, set, result);
+            set.removeLast();
+        }
     }
 }
