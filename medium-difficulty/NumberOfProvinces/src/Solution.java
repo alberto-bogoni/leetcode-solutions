@@ -21,4 +21,54 @@ public class Solution {
             dfs(grid, i, visited);
         }
     }
+
+    public int findCircleNumDSU(int[][] isConnected) {
+        int[] parent = new int[isConnected.length];
+        int[] rank = new int[isConnected.length];
+
+        int result = isConnected.length;
+        for (int i = 0; i < parent.length; i++) {
+            parent[i] = i;
+            rank[i] = 1;
+        }
+
+        int provinces = isConnected.length;
+        for (int i = 0; i < isConnected.length; i++) {
+            for (int j = 0; j < isConnected[0].length; j++) {
+                if (isConnected[i][j] == 1) {
+                    if (union(i, j, parent, rank)) provinces--;
+                }
+            }
+        }
+
+        return provinces;
+    }
+
+    public int find(int i, int[] parent) {
+        if (parent[i] == i) {
+            return i;
+        }
+
+        int result = find(parent[i], parent);
+        parent[i] = result;
+        return result;
+    }
+
+    public boolean union(int i, int j, int[] parent, int[] rank) {
+        int pi = find(i, parent);
+        int pj = find(j, parent);
+
+        if (pi == pj) return false;
+
+        if (rank[pi] < rank[pj]) {
+            parent[pi] = pj;
+        } else if (rank[pj] < rank[pi]) {
+            parent[pj] = pi;
+        } else {
+            parent[pj] = pi;
+            rank[pi]++;
+        }
+
+        return true;
+    }
 }
