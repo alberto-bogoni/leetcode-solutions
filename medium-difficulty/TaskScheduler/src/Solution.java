@@ -6,7 +6,7 @@ class Solution {
         for (Character t : tasks) map.put(t, map.getOrDefault(t, 0) + 1);
 
         PriorityQueue<Map.Entry<Character, Integer>> maxHeap = new PriorityQueue<>((a, b) -> b.getValue() - a.getValue());
-        for (Map.Entry<Character, Integer> e : map.entrySet()) maxHeap.add(e);
+        maxHeap.addAll(map.entrySet());
 
         int intervals = 0;
         while (!maxHeap.isEmpty()) {
